@@ -11,10 +11,6 @@ body{
     text-align: center;
 }
 
-body img{
-    opacity: 50%;
-}
-
 .topnav {
   display: flex;
   justify-content: center;
