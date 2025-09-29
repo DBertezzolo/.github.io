@@ -35,3 +35,13 @@ body{
 #perfetto {
     color: white;
 }
+
+.container {
+  background-color: white;
+  max-width: 800px;        /* Larghezza massima del foglio */
+  margin: 50px auto;       /* Centratura orizzontale + margine sopra/sotto */
+  padding: 40px;           /* Spazio interno */
+  border-radius: 8px;      /* Angoli arrotondati (opzionale) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera (opzionale) */
+  min-height: 500px;       /* Altezza minima */
+}
