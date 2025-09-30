@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("img/image.png");
+    background-image: url("/img/image.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,16 +32,29 @@ body{
   color: black;
 }
 
-#perfetto {
-    color: white;
+.topnav a.active {
+  background-color: lightblue;
+  color: black;
 }
 
-.container {
-  background-color: white;
-  max-width: 800px;        /* Larghezza massima del foglio */
-  margin: 50px auto;       /* Centratura orizzontale + margine sopra/sotto */
-  padding: 40px;           /* Spazio interno */
-  border-radius: 8px;      /* Angoli arrotondati (opzionale) */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera (opzionale) */
-  min-height: 500px;       /* Altezza minima */
+.content {
+  background-color: lightgrey;
+  margin: 30px 50px 50px 50px;
+  padding: 50px;
+}
+
+.content img {
+    width: 65%;
+    height: auto;
+    border-radius: clamp(10px, 1vw, 50px);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.content img:hover {
+    transform: scale(1.05);
+}
+
+#immagine_ferma {
+  transform: scale(1.00);
 }
