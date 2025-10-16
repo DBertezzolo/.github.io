@@ -133,11 +133,11 @@ body{
   color: black;
   width: 100%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #vittorie {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .custom-grid {
@@ -175,37 +175,37 @@ body{
 #text {
   text-align: left;
   padding-top: 15%;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #text_2 {
   text-align: left;
   padding-top: 85%;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #text_3 {
   text-align: left;
   padding-top: 90%;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #text_4 {
   text-align: left;
   padding-top: 80%;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #text_5 {
   text-align: left;
   padding-top: 110%;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #text_sitting {
   text-align: center;
   line-height: 1.8;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 105%;
 }
 
