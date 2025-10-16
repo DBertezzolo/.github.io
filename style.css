@@ -62,7 +62,6 @@ body{
   width: 50%;
 }
 
-/* Griglia 20 immagini leggende */
 
 .grid {
   display: grid;
@@ -144,8 +143,8 @@ body{
     display: flex;
     gap: 30px;
     padding: clamp(10px, 6vw, 50px);
-    max-width: clamp(1000px, 70vw, 3000px); /* larghezza massima della griglia */
-    margin: 0 auto; /* centra la griglia nello schermo */
+    max-width: clamp(1000px, 70vw, 3000px); 
+    margin: 0 auto; 
 }
 
 .left-column {
@@ -231,9 +230,6 @@ th {
   color: white;
 }
 
-/* --------- RESPONSIVE DESIGN --------- */
-
-/* Tablet */
 @media (max-width: 1024px) {
   .content {
     margin: 20px;
@@ -265,7 +261,7 @@ th {
     padding-top: 0;
   }
 
-  /* Griglia Stelle Mondiali */
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
@@ -293,7 +289,7 @@ th {
   }
 }
 
-/* Smartphone */
+
 @media (max-width: 600px) {
   body {
     text-align: center;
@@ -338,7 +334,6 @@ th {
     padding: 0;
   }
 
-  /* Sezione Stelle Mondiali */
   .grid {
     grid-template-columns: 1fr;
     gap: 20px;
